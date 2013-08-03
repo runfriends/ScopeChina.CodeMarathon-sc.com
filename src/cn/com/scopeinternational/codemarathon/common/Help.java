@@ -6,11 +6,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.math.BigDecimal;
 import java.util.Properties;
 
 import cn.com.scopeinternational.codemarathon.exception.ConstantLoadingException;
-
+/**
+ * 帮助工具
+ * @author running
+ *
+ */
 public class Help {
 	/**
 	 * 常量属性文件后缀，所有在资源目录中以此结束的文件名都作为常量文件名加载。

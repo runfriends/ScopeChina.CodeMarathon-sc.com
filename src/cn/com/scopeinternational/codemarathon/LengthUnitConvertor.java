@@ -193,6 +193,11 @@ public class LengthUnitConvertor {
 			throw new IllegalArgumentException("op is illegal"+op);	
 		}
 	}
+	/**
+	 * 根据单位名称得到换算规则
+	 * @param unit
+	 * @return
+	 */
 	private BigDecimal extractRule(String unit){
 		return this.unitRules.get(Help.returnSingular(unit));
 	}
